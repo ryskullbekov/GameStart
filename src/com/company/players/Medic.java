@@ -24,7 +24,6 @@ public class Medic extends Hero {
                 if (!heroes[i].getAbility().equals(SuperAbility.HILL)) {
                     heroes[i].setHealth(heroes[i].getHealth() + healPoints);
                 }
-
             }
         }
     }

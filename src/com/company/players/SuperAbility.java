@@ -1,5 +1,5 @@
 package com.company.players;
 
 public enum SuperAbility {
-    HILL,BOOST, CRITICAL_DAMAGE,SAVE_AND_REVERT
+    HILL,BOOST, CRITICAL_DAMAGE,SAVE_AND_REVERT,STUNNING,TAKES_DAMAGE,
 }

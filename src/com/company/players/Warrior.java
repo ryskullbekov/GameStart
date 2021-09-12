@@ -22,9 +22,9 @@ private int criticalDamage;
 
     @Override
     public void applySuperAbility(Boss boss,Hero[] heroes){
-        int koef = RGP_game.random.nextInt(2) + 4;
+        int koef = RGP_game.random.nextInt(2) + 2;
         boss.setHealth(boss.getHealth() - koef * this.getDamage());
-        System.out.println(this.getAbility() + " " + koef * this.getDamage());
+        System.out.println(this.getAbility() + " " + (koef * this.getDamage()));
 
     }
 }
